@@ -33,8 +33,11 @@ body{
    font-weight: 600;
 }
 .calculator .output-screen{
-    width:80%;
-    height: 10vh;
+    width:84%;
+    height: 20vh;
+    padding: 12px;
+    /* background-color: yellowgreen; */
+    
    
 }
 .calculator  .output-screen #display{
@@ -58,9 +61,9 @@ body{
 }
 .calculator .cal-btn{
     background-color: #252D44;
-    margin-top: 4.3vw;
-    padding: 12px;
+  
     width: 70%;
+    padding: 19px;
     display: grid;
     place-content: center;
     height:60vh;
