@@ -1,0 +1,106 @@
+/* --bg : #3B4664; */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+}
+html{
+    font-size: 2rem;
+}
+body{
+    background-color: #3B4664;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;;
+}
+
+.calculator{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ /* background-color: aliceblue; */
+ width: 30vw;
+ height: 60vh;
+ margin-top: 6%;
+ margin-left: 34%;
+}
+.calculator .output-screen h3{
+    margin-left: 12px;
+   font-size: .6rem;
+   color: #FFFFFF;
+  
+   font-weight: 600;
+}
+.calculator .output-screen{
+    width:80%;
+    height: 10vh;
+   
+}
+.calculator  .output-screen #display{
+    width: 84%;
+    height: 6vh;
+    background-color: #181F32;
+    border: none;
+    outline: none;
+    text-align: right;
+    color: #FFFFFF;
+   
+    font-size: .8rem;
+    font-weight: 700;
+    /* padding: 1.5vw .9vw; */
+    padding: 18px;
+    border-radius: 5px;
+    margin-top:7px;
+    margin-left: 9px;
+
+    
+}
+.calculator .cal-btn{
+    background-color: #252D44;
+    margin-top: 4.3vw;
+    padding: 12px;
+    width: 70%;
+    display: grid;
+    place-content: center;
+    height:60vh;
+    border-radius: 6px;
+   
+}
+.calculator .cal-btn .btn{
+
+ 
+ height: 9vh;
+  
+ padding:2px 18px;
+ /* background-color: yellowgreen; */
+
+
+
+}
+.calculator .cal-btn .btn button{
+    width: 55px;
+    padding: 8px 2px;
+    font-size: .5rem;
+    font-weight: 800;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    line-height: 20px;
+    background-color: #EAE3DB;
+    color: #3B4664;
+}
+.calculator .cal-btn .btn .color-btn{
+    background-color: #647299;
+    color: #ffffff;
+    font-weight: 600;
+}
+.calculator .cal-btn .btn  .btn-width {
+    width: 48%;
+    
+}
+.calculator .cal-btn .btn  .equal-btn{
+    background-color: #D13F30;
+    color: #FFFFFF;
+} 
+
