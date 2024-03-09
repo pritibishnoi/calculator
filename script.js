@@ -19,7 +19,7 @@ array_btn.forEach( (btn)=>{
         string =''
         display.value= string
     }
-  
+
     else{
         string += e.target.innerText;
         display.value= string;
